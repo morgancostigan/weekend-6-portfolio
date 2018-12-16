@@ -9,7 +9,8 @@ class AddForm extends Component{
     render() {
         return(
             <div>
-
+                <h3>Admin</h3>
+                <Link to="/"><button onClick={this.handleClick}>Portfolio</button></Link>
             </div>
         )
     }
