@@ -6,6 +6,12 @@ import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import AddForm from '../AddForm/AddForm';
 
 class ProjectList extends Component {
+
+    componentDidMount() {
+        // use component did mount to dispatch an action to request the projectList from the DB
+        this.props.dispatch({ type: 'GET_PROJECTS' });
+    }//end componentDidMount 
+
     render() {
         return (
             <div>
