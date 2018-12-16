@@ -10,6 +10,8 @@ class ProjectList extends Component {
         return (
             <div>
                 <h3>Project List</h3>
+                <br/>
+                <a href="https://github.com/morgancostigan" target="_blank">GitHub profile</a>
             </div>
         )
     }
