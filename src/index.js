@@ -14,9 +14,9 @@ import rootSaga from './redux/sagas/projectsSaga';
 import rootReducer from './redux/reducers/projectListReducer';
 
 // Create the rootSaga generator function
-function* rootSaga() {
+// function* rootSaga() {
 
-}
+// }
 
 // Create sagaMiddleware
 const sagaMiddleware = createSagaMiddleware();
