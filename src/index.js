@@ -10,6 +10,9 @@ import logger from 'redux-logger';
 // Import saga middleware
 import createSagaMiddleware from 'redux-saga';
 
+import rootSaga from './redux/sagas/projectsSaga';
+import rootReducer from './redux/reducers/projectListReducer';
+
 // Create the rootSaga generator function
 function* rootSaga() {
 
